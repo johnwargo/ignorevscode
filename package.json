@@ -1,25 +1,25 @@
 {
-    "name": "ignorevscode",
-    "version": "1.0.2",
-    "description": "Node module to update a folder's .gitignore file for VS Code files",
-    "main": "ignorevscode.js",
-    "bin": {
-        "ignorevscode": "ignorevscode.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/johnwargo/ignorevscode.git"
-    },
-    "author": "John M. Wargo",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/johnwargo/ignorevscode/issues"
-    },
-    "homepage": "https://github.com/johnwargo/ignorevscode#readme",
-    "dependencies": {
-        "chalk": "^2.2.0"
-    }
+  "name": "ignorevscode",
+  "version": "1.0.3",
+  "description": "Node module to update a folder's .gitignore file for VS Code files",
+  "main": "ignorevscode.js",
+  "bin": {
+    "ignorevscode": "ignorevscode.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwargo/ignorevscode.git"
+  },
+  "author": "John M. Wargo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnwargo/ignorevscode/issues"
+  },
+  "homepage": "https://github.com/johnwargo/ignorevscode#readme",
+  "dependencies": {
+    "chalk": "^2.2.0"
+  }
 }
