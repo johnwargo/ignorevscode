@@ -9,6 +9,9 @@
  * 
  * Node module that updates the current folder's .gitignore file
  * with the internal files Visual Studio Code uses.
+ * 
+ * Run it in a folder with a .gitignore file in it, and the module
+ * will add the entries in `entries` to the file then exit.
  ******************************************************************/
 
 const chalk = require('chalk');
