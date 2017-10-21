@@ -1,6 +1,6 @@
 {
   "name": "ignorevscode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node module to update a folder's .gitignore file for VS Code files",
   "main": "ignorevscode.js",
   "bin": {
