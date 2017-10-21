@@ -3,7 +3,7 @@
     "version": "1.0.5",
     "description": "Node module to update a folder's .gitignore file for VS Code files",
     "keywords": [
-        "Microsoft"
+        "Microsoft",
         "VS Code",
         "Visual Studio Code",
         ".gitignore"
