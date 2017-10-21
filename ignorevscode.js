@@ -24,7 +24,7 @@ const rn = "\r\n"
 const entries = [".code-workspace", ".vscode/"];
 
 //build a complete path to the .gitignore file
-let filePath = path.join(__dirname, ".gitignore");
+let filePath = path.join(process.cwd(), ".gitignore");
 //Tell the user which file we're upating
 console.log(chalk.green("File:"), filePath);
 //Check to see if the.gitignore file exists

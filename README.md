@@ -1,6 +1,6 @@
 # Ignore Visual Studio Code (ignorevscode)
 
-A simple Node module that updates a folder's `.gitignore` file, adding the Visual Studio Code files (`.vscode/` and `.code-workspace`). i created this to make it easier to add those values to a project's `.gitignore` file.
+A simple Node module that updates a folder's `.gitignore` file, adding the Visual Studio Code files (`.vscode/` and `.code-workspace`). I created this to make it easier to add those values to a project's `.gitignore` file.
 
 To install the module, open a terminal window and execute the following command:
 
