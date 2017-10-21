@@ -18,7 +18,7 @@ The module will update the console as it works:
 	Adding: .vscode/
 	Result:  File saved!
 
-It will fail, and exit if there's no .gitignore file in the current folder. Yes, I know I could make one if its not there already, but I didn't. OK?
+Execution will fail, and the module will exit, if there's no `.gitignore` file in the current folder. Yes, I know I could create one if its not there already, but then you could end up with a `.gitignore` file in a folder that isn't a git repository, so I decided to go this route.
 
 ***
 
