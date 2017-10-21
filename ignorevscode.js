@@ -45,6 +45,9 @@ fs.access(filePath, fs.constants.W_OK, (err) => {
             if (gitFile.indexOf(item) < 0) {
                 //No? Then add it to the array
                 console.log(chalk.green("Adding:"), item);
+                if (!fileChanged) {
+                    gitFile.push("# Visual Studio Code files");
+                }
                 gitFile.push(item);
                 fileChanged = true;
             } else {
